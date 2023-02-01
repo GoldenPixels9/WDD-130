@@ -1,18 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Shadows+Into+Light&display=swap');
+
+
+
 main section {
     text-align: center;
 }
 
 body {
     background-color: lightgray;
+    font-family: 'Handlee', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #8DA367;
+    font-family: 'Shadows Into Light', Times, serif;
 }
 
 footer {
     background-color: #8DA367;
     color: #396E94;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -34,6 +45,10 @@ footer:hover {
     color: #396E94;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 nav a:hover {
     background-color: #8DA367;
     color: #396E94;
@@ -41,19 +56,24 @@ nav a:hover {
 
 #content {
     max-width: 1600px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .home-title {
     background-color: #8DA367;
     color: #396E94;
+    font-family: 'Shadows Into Light', Times, serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
+
 
 nav a {
     text-align: center;
     background-color: #8DA367;
     color: #396E94;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -76,15 +96,23 @@ nav a:hover {
     text-align: center;
 }
 
+
 h4 {
     background-color: #8DA367;
     color: #396E94;
+}
+
+h2 {
+    margin: 0;
 }
 
 .book {
     background-color: #8DA367;
     color: #396E94;
     text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -96,6 +124,9 @@ h4 {
     background-color: #8DA367;
     color: #396E94;
     text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover {
@@ -105,23 +136,56 @@ h4 {
 
 #background {
     background-color: darkolivegreen;
-    height: 725px; 
+    height: 725px;
+}
+
+.msg {
+    line-height: 1.5em;
+    background-color: #8DA367;
 }
 
 .msg h2 {
     background-color: #8DA367;
     color: #396E94;
+    font-family: 'Shadows Into Light', Times, serif;
 }
 
 .msg p {
     background-color: #8DA367;
     color: #396E94;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 #hero-img {
     width: 100;
 }
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid darkolivegreen;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
