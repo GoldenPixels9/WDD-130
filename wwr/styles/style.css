@@ -297,3 +297,41 @@ main section img {
         margin-top: 25px;
     }
 }
+
+/*--------------------------------------------------------------------*/
+
+#main-grid-container {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 5px;
+    align-items: center;
+    justify-items: center;
+    grid-row-gap: 150px;
+}
+
+#hero-title {
+    text-align: center;
+    color: #396E94;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.user-comment {
+    border: 3px solid darkolivegreen;
+    background-color: #8DA367;
+    color: #396E94;
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: x-large;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.user-comment:hover {
+    transform: scale(1.1);
+}
