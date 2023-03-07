@@ -149,8 +149,13 @@ footer p a:hover {
     text-align: center;
     font-family: 'Chakra Petch', Times, serif;
     color: rgb(226, 230, 16);
-    margin-top: 120px;
+    margin-top: 200px;
     font-size: 35px;
+}
+
+#con-sentence-two {
+    margin-top: 0px;
+    padding: 65px;
 }
 
 #button-box {
@@ -159,6 +164,8 @@ footer p a:hover {
     color: rgb(50, 50, 123);
     padding: 15px;
     border-radius: 15px;
+    width: 200px;
+    margin-left: 280px;
 }
 
 #button-box:hover{
