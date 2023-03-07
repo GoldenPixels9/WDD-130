@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&family=Rajdhani:wght@600&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.spm-logo {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+    height: 100%;
+}
+
+#hero-container {
+    position: relative;
+    text-align: right;
+}
+
+#hero-msg {
+    position: absolute;
+    top: 300px;
+    right: 16px;
+    font-family: 'Chakra Petch', Times, serif;
+    color: rgb(226, 230, 16);
+}
+
+.home-title {
+    top: 300px;
+}
+
+#hero-msg h1 {
+    font-family: 'Chakra Petch', Times, serif;
+    color: rgb(226, 230, 16);
+}
+
+#hero-msg h4 {
+    font-size: 45px;
+}
+
+#user-input {
+    position: absolute;
+    bottom: 350px;
+    right: 50px;
+    font-family: 'Chakra Petch', Times, serif;
+    color: rgb(226, 230, 16);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: rgb(226, 230, 16);
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+}
+
+header {
+    background-color: rgb(50, 50, 123);
+    font-family: 'Chakra Petch', Times, serif;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+body {
+    background-color: lightgray;
+    font-family: 'Handlee', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: rgb(50, 50, 123);
+    font-family: 'Chakra Petch', Times, serif;
+    padding: 25px 50px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: rgb(226, 230, 16);
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.2em;
+    color: rgb(226, 230, 16);
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.social {
+    padding-top: 15px;
+}
+
+.home-title {
+    color: #396E94;
+    font-family: 'Shadows Into Light', Times, serif;
+    font-size: 4em;
+    margin-top: 10px;
+}
+
+#consultant-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(98, 97, 97);
+}
+
+#consultant-left-side {
+    grid-column: 1/2;
+}
+
+#consultant-right-side {
+    grid-column: 2/2;
+}
+
+#free-consultation {
+    text-align: center;
+    font-family: 'Chakra Petch', Times, serif;
+    color: rgb(226, 230, 16);
+    padding: 35px;
+    font-size: 85px;
+}
+
+#consultation-img {
+    width: 700px;
+    height: 450px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+#con-sentence-one, #con-sentence-two {
+    text-align: center;
+    font-family: 'Chakra Petch', Times, serif;
+    color: rgb(226, 230, 16);
+    margin-top: 120px;
+    font-size: 35px;
+}
+
+#button-box {
+    position: absolute;
+    bottom: 250px;
+    right: 530px;
+    text-align: center;
+    background-color: rgb(50, 50, 123);
+    color: rgb(50, 50, 123);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#button-box:hover{
+    background-color: #3a37ff;
+    color: #3a37ff;
+}
+
+#book {
+    text-decoration: none;
+    font-family: 'Chakra Petch', Times, serif;
+    color: rgb(226, 230, 16);
+}
+
+#main-shop-div {
+    background-color: rgb(98, 97, 97);
+    padding: 25px;
+}
+
+#shop-title-and-subtitle {
+    text-align: center;
+    font-size: 35px;
+}
+
+#shop-title-and-subtitle h1 {
+    font-family: 'Chakra Petch', Times, serif;
+    color: rgb(226, 230, 16);
+}
+
+#shop-title-and-subtitle h4 {
+    font-family: 'Chakra Petch', Times, serif;
+    color: rgb(226, 230, 16);
+}
+
+.main-searchbar {
+    width: 1000px;
+    height: 25px;
+}
+
+#search-container {
+    text-align: center;
+    padding: 75px;
+}
+
+#sub-search-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#sub-search-one {
+    text-align: center;
+    font-family: 'Chakra Petch', Times, serif;
+    color: rgb(226, 230, 16);
+}
+
+#sub-search-two {
+    text-align: center;
+    font-family: 'Chakra Petch', Times, serif;
+    color: rgb(226, 230, 16);
+}
+
+#sub-search-three { 
+    text-align: center;
+    font-family: 'Chakra Petch', Times, serif;
+    color: rgb(226, 230, 16);
+}
+
+
+
+.dropbtn {
+    background-color: rgb(50, 50, 123);
+    color: rgb(226, 230, 16);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(50, 50, 123);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(226, 230, 16);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #3a37ff;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3a37ff;}
+
+
+

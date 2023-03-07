@@ -251,7 +251,7 @@ h2 {
 }
 
 main section img {
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 @media screen and (max-width: 900px) {
