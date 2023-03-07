@@ -154,9 +154,6 @@ footer p a:hover {
 }
 
 #button-box {
-    position: absolute;
-    bottom: 250px;
-    right: 530px;
     text-align: center;
     background-color: rgb(50, 50, 123);
     color: rgb(50, 50, 123);
@@ -228,7 +225,7 @@ footer p a:hover {
     color: rgb(226, 230, 16);
 }
 
-
+/*===========================*/
 
 .dropbtn {
     background-color: rgb(50, 50, 123);
