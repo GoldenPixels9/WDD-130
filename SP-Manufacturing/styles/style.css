@@ -15,9 +15,14 @@
     width: 80px;
 }
 
-#hero-img {
+/*----------------------------------------------------------*/
+
+.hero-img {
     width: 100%;
     height: 100%;
+    position: absolute;
+    left: 0px;
+    z-index: -10;
 }
 
 #hero-container {
@@ -25,16 +30,17 @@
     text-align: right;
 }
 
-#hero-msg {
-    position: absolute;
-    top: 300px;
-    right: 16px;
-    font-family: 'Chakra Petch', Times, serif;
-    color: rgb(226, 230, 16);
+#scroll-image {
+    height: 990px;
 }
 
-.home-title {
-    top: 300px;
+#hero-msg {
+    position: absolute;
+    top: 230px;
+    right: 60px;
+    font-family: 'Chakra Petch', Times, serif;
+    color: rgb(226, 230, 16);
+    z-index: 100000;
 }
 
 #hero-msg h1 {
@@ -46,12 +52,19 @@
     font-size: 45px;
 }
 
+/*-----------------------------------------------------------*/
+
+.home-title {
+    top: 300px;
+}
+
 #user-input {
     position: absolute;
     bottom: 350px;
     right: 50px;
     font-family: 'Chakra Petch', Times, serif;
     color: rgb(226, 230, 16);
+    z-index: 100000;
 }
 
 nav {
@@ -85,7 +98,8 @@ footer {
     background-color: rgb(50, 50, 123);
     font-family: 'Chakra Petch', Times, serif;
     padding: 25px 50px;
-    margin-top: -5px;
+    margin-bottom: 0px;
+    /*margin-top: -5px;*/
     display: flex;
     justify-content: space-around;
     align-items: center;
