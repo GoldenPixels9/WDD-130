@@ -165,7 +165,7 @@ footer p a:hover {
     height: 450px;
     margin-left: 50px;
     margin-top: 0px;
-}
+} 
 
 #con-sentence-one, #con-sentence-two {
     text-align: center;
@@ -219,6 +219,7 @@ footer p a:hover {
 #shop-title-and-subtitle h1 {
     font-family: 'Chakra Petch', Times, serif;
     color: rgb(226, 230, 16);
+    margin-top: 150px;
 }
 
 #shop-title-and-subtitle h4 {
@@ -239,6 +240,17 @@ footer p a:hover {
 #sub-search-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+#title-and-pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.shop-pic{
+    width: 350px;
+    height: 350px;
+    justify-self: center;
 }
 
 #sub-search-one {
